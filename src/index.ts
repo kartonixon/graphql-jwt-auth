@@ -24,6 +24,8 @@ import { UserResolver } from "./resolvers/UserResolver";
 		schema: await buildSchema({
 			resolvers: [AuthResolver, UserResolver],
 		}),
+		introspection: true,
+		playground: true,
 	});
 
 	apolloServer.applyMiddleware({ app });
