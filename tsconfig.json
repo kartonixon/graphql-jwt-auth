@@ -12,6 +12,7 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "strictPropertyInitialization": false,
+    "outDir": "dist",
   },  
   "include": ["**/*.ts", "**/*.tsx", ".eslintrc.js", "ormconfig.js"]
 }
